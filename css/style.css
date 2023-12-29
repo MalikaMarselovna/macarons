@@ -118,7 +118,7 @@ section {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .head_swiper {
@@ -126,24 +126,32 @@ section {
     background: #D4E9F9;
     padding: 15px;
     margin-bottom: 10px;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .head_txt {
     color: #000;
     text-align: center;
     font-family: "Proxima Nova";
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.36px;
 }
-
+.head_icon{
+    margin-right: 10px;
+    background-position: center;
+}
 .head_icon:nth-child(1) {
     background-image: url(/img/icons/icon1.png);
-    background-position: center;
     width: 44.819px;
     height: 31px;
+}
 
+.head_icon:nth-child(2) {
+    background-image: url();
 }
