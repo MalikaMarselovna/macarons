@@ -222,3 +222,6 @@ section {
     font-size: 14px;
     font-weight: 400;
 }
+.hb_txt1::after{
+    background-image: url();
+}
