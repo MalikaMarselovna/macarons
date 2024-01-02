@@ -120,7 +120,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/*header*/
 .head_swiper {
     width: 100%;
     background: #D4E9F9;
@@ -169,4 +169,22 @@ section {
     background-image: url(/img/icons/icon4.png);
     width: 31.659px;
     height: 30.37px;
+}
+.menu_actions{
+    width: 100%;
+    padding: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.action_icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+.action_icon1{
+    background-image: url(/img/icons/action1.png);
+}
+.action_icon2{
+    background-image: url();
 }
