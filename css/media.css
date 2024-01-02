@@ -7,6 +7,9 @@
 	.container{
 		max-width: 750px;
 	}
+	.header-top__trigger{
+		
+	}
 }
 @media screen and (max-width: 780px) {
 	.container{
