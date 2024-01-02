@@ -180,18 +180,15 @@ section {
     justify-content: space-around;
     align-items: center;
     background: #F7EBE5;
-    padding: 12px 0;
-    
+    margin-top: -10px;
+    display: inline-flex;   
 }
 
 .menu_actions {
-    width: 100%;
-    display: inline-flex;
-    justify-content: end;
     align-items: center;
-
+    display: inline-flex;
+    gap: 30px;
 }
-
 .menu_action {
     display: inline-flex;
 }
@@ -200,7 +197,6 @@ section {
     width: 24px;
     height: 24px;
     margin-right: 5px;
-    margin-top: -3.5px;
 }
 
 .action_icon1 {
@@ -214,12 +210,25 @@ section {
 .action_icon3 {
     background-image: url(/img/icons/action3.png);
 }
-
+.action_icon4{
+    background-image: url(/img/icons/tg.png);
+}
+.action_icon5{
+    background-image: url(/img/icons/vk.png);
+}
+.action_icon6{
+    background-image: url(/img/icons/ok.png);
+}
+.social_media{
+    display: inline-flex;
+}
 .header_top1 {
     display: inline-flex;
     justify-content: flex-start;
     gap: 14px;
-    margin-right: 76px;
+    padding-right: 76px;
+    align-items: center;
+   
 }
 
 .header_top_txt {
