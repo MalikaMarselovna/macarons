@@ -142,35 +142,31 @@ section {
     line-height: normal;
     letter-spacing: 0.36px;
 }
+.head_icon{
+    margin-right: 10px;
+    background-position: center;
+}
 
 .head_icon1 {
     background-image: url(/img/icons/icon1.png);
-    margin-right: 10px;
-    background-position: center;
     width: 44.819px;
     height: 31px;
 }
 
 .head_icon2 {
     background-image: url(/img/icons/icon2.png);
-    margin-right: 10px;
-    background-position: center;
     width: 44.2px;
     height: 34.611px;
 }
 
 .head_icon3 {
     background-image: url(/img/icons/icon3.png);
-    margin-right: 10px;
-    background-position: center;
     width: 41.8px;
     height: 39.2px;
 }
 
 .head_icon4 {
     background-image: url(/img/icons/icon4.png);
-    margin-right: 10px;
-    background-position: center;
     width: 31.659px;
     height: 30.37px;
 }
