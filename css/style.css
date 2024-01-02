@@ -181,6 +181,7 @@ section {
     align-items: center;
     background: #F7EBE5;
     padding: 12px 0;
+    
 }
 
 .menu_actions {
@@ -232,7 +233,6 @@ section {
     display: inline-flex;
     align-items: center;
     gap: 30px;
-    
 }
 
 .header_bottom_txt {
@@ -259,13 +259,14 @@ section {
     margin-left: 5px;
     margin-top: -5px;
 }
-
+.header_bottom li:nth-child(1) {
+    margin-left: -100px;
+}
 .logo {
     width: 124px;
     height: 124.075px;
     background-repeat: 30%;
     animation: zoomInOut 5s infinite;
-    
     text-align: center;
 }
 
