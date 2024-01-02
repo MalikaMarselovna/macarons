@@ -174,13 +174,14 @@ section {
 }
 
 /*header*/
-.header_top{
+.header_top {
     width: 100%;
     justify-content: space-around;
     align-items: center;
     background: #F7EBE5;
-    padding: 12px 0 ;
+    padding: 12px 0;
 }
+
 .menu_actions {
     width: 100%;
     display: inline-flex;
@@ -188,9 +189,11 @@ section {
     align-items: center;
 
 }
+
 .menu_action {
     display: inline-flex;
 }
+
 .action_icon {
     width: 24px;
     height: 24px;
@@ -216,12 +219,45 @@ section {
     gap: 14px;
     margin-right: 76px;
 }
+
 .header_top_txt {
     color: rgba(0, 0, 0, 0.79);
     font-family: "Proxima Nova";
     font-size: 14px;
     font-weight: 400;
 }
-.hb_txt1::after{
-    background-image: url();
+
+.header_bottom {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header_bottom_txt {
+    color: #2B1414;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header_bottom_txt:nth-child(3) {
+    margin-right: 100px;
+}
+.hb_txt1 {
+    display: inline-flex;
+}
+
+.hb_icon {
+    background-image: url(/img/icons/ellipse.png);
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    text-align: center;
+    font-family: " Proxima Nova";
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 2px;
+    margin-left: 5px;
+    margin-top: -5px;
 }
