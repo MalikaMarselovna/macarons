@@ -228,10 +228,11 @@ section {
     font-weight: 400;
 }
 
-.header_bottom {
+.header_bottom nav {
     display: inline-flex;
     align-items: center;
     gap: 30px;
+    
 }
 
 .header_bottom_txt {
